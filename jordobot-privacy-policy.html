@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Privacy Policy for JordoBot, a Discord bot that links Discord accounts to VRChat accounts.">
+	<title>Privacy Policy | JordoBot</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark">
+	<link href="fontawesome/css/all.min.css" rel="stylesheet">
+	<link href="styles/custom.css" rel="stylesheet">
+
+	<style>
+		.policy-section {
+			scroll-margin-top: 1.5rem;
+		}
+
+		.policy-section + .policy-section {
+			margin-top: 2rem;
+		}
+
+		@media screen and (max-width: 768px) {
+			.policy-sidebar {
+				position: static;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<section class="hero is-small is-jordo has-background">
+		<div class="hero-body">
+			<div class="container">
+				<h1 class="title">JordoBot</h1>
+				<h3 class="subtitle">Privacy Policy</h3>
+				<p>Last updated: October 26, 2026</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container is-fullhd">
+
+			<div class="columns">
+
+				<div class="column is-8">
+
+					<div class="content">
+
+						<section id="introduction" class="policy-section">
+							<h2 class="title is-4">1. Introduction</h2>
+
+							<p>
+								This Privacy Policy explains how JordoBot handles your
+								information when you use its account-linking features on
+								the Jordo's Junction Discord server ("the associated server").
+							</p>
+
+							<p>
+								JordoBot allows you to link your Discord account to your
+								VRChat account. This connection helps organize VRChat display
+								names according to Patreon-related roles in the associated
+								Discord server, supporting functionality for the associated
+								VRChat worlds.
+							</p>
+
+							<p>
+								This policy explains what information is collected, how it
+								is used, where it is made available, and how you can request
+								its deletion.
+							</p>
+						</section>
+
+						<section id="information" class="policy-section">
+							<h2 class="title is-4">2. Information We Collect</h2>
+
+							<p>
+								When you link your accounts, JordoBot collects and stores
+								the following information:
+							</p>
+
+							<ul>
+								<li>
+									<strong>Discord User ID:</strong> Used to identify
+									your Discord account and associate it with your
+									VRChat account.
+								</li>
+								<li>
+									<strong>VRChat User ID:</strong> Used to identify
+									your VRChat account and allow you to update your
+									stored display name if it changes.
+								</li>
+								<li>
+									<strong>VRChat Display Name:</strong> Used in the
+									public JSON lists that support the associated
+									VRChat worlds.
+								</li>
+							</ul>
+
+							<p>
+								Your Discord User ID and VRChat User ID are stored
+								together in an external database. Your VRChat display
+								name is used to populate the appropriate lists in the
+								public JSON file according to your Patreon-related roles.
+							</p>
+
+							<p>
+								JordoBot's account-linking database does not intentionally
+								store your Discord messages, email address, or other
+								Discord profile information.
+							</p>
+						</section>
+
+						<section id="usage" class="policy-section">
+							<h2 class="title is-4">3. How We Use Your Information</h2>
+
+							<p>Your information is used to:</p>
+
+							<ul>
+								<li>Link your Discord account to your VRChat account.</li>
+								<li>Keep your VRChat display name up to date, including when you use the "Update Your Name" feature.</li>
+								<li>Include your VRChat display name in the appropriate public lists based on your Patreon-related roles in the associated Discord server.</li>
+								<li>Identify linked accounts so the appropriate Discord role can be assigned.</li>
+								<li>Delete your stored account-linking information when you unlink your account or leave the associated Discord server.</li>
+							</ul>
+
+							<p>
+								Your information is used to provide and maintain these
+								features. JordoBot does not sell your personal information.
+							</p>
+						</section>
+
+						<section id="public-json" class="policy-section">
+							<h2 class="title is-4">4. Public VRChat Display Name Lists</h2>
+
+							<p>
+								JordoBot maintains a publicly accessible JSON file containing
+								VRChat display names organized into lists according to
+								Patreon-related roles.
+							</p>
+
+							<div class="box">
+								<p class="title is-5">
+									<i class="fas fa-globe" aria-hidden="true"></i>
+									Public JSON file
+								</p>
+
+								<p>
+									<a href="https://jordovr-bot.github.io/patreon.json"
+									target="_blank"
+									rel="noopener noreferrer">
+									View patreon.json
+								</a>
+							</p>
+						</div>
+
+						<p>
+							If you link your account, your VRChat display name may
+							appear in one or more lists in this file, depending on
+							your roles in the associated Discord server.
+						</p>
+
+						<p>
+							The public JSON file contains VRChat display names rather
+							than the association between your Discord User ID and
+							VRChat User ID stored in the external database.
+						</p>
+
+						<p>
+							Because the file is public, other people may view,
+							download, or copy its contents. Removing your display
+							name from the original file cannot guarantee that
+							previously downloaded or cached copies will also be removed.
+						</p>
+					</section>
+
+					<section id="storage" class="policy-section">
+						<h2 class="title is-4">5. Data Storage and Security</h2>
+
+						<p>
+							The association between your Discord User ID and VRChat
+							User ID is stored in an external database. The public
+							VRChat display name lists are hosted separately through
+							GitHub Pages.
+						</p>
+
+						<p>
+							Reasonable measures have been taken to protect stored
+							information from unauthorized access, disclosure,
+							alteration, or destruction.
+						</p>
+					</section>
+
+					<section id="deletion" class="policy-section">
+						<h2 class="title is-4">6. Data Retention and Deletion</h2>
+
+						<p>
+							JordoBot is designed to retain your account-linking
+							information only for as long as it is needed to provide
+							its features.
+						</p>
+
+						<h3 class="title is-5">Unlinking your account</h3>
+
+						<p>
+
+							You can use the "Unlink Your Account" button in the
+							<strong>#link-discord-vrchat</strong> channel
+							on the associated Discord server to have JordoBot
+							initiate deletion of your stored account-linking
+							information from the external database.
+						</p>
+
+						<h3 class="title is-5">Leaving the Discord server</h3>
+
+						<p>
+							If you leave the associated Discord server, JordoBot
+							will initiate deletion of your stored account-linking
+							information from the external database.
+						</p>
+
+						<p>
+							Deletion from the external database and removal from
+							the public JSON file are separate operations. Your
+							VRChat display name should also be removed from the
+							public lists as part of the associated cleanup process.
+							These operations may occur separately, and removal
+							from the public lists depends on the cleanup process
+							completing successfully.
+						</p>
+
+						<p>
+							Copies of public information that other people have
+							already downloaded may remain outside JordoBot's control.
+						</p>
+					</section>
+
+					<section id="sharing" class="policy-section">
+						<h2 class="title is-4">7. Sharing Your Information</h2>
+
+						<p>
+							JordoBot does not sell your personal information.
+							Your Discord User ID and VRChat User ID are stored
+							together in the external database to provide the
+							account-linking service.
+						</p>
+
+						<p>
+							Your VRChat display name may be visible to the public
+							through the JSON file described in Section 4.
+						</p>
+
+						<p>
+							JordoBot relies on third-party services to operate,
+							including Discord and GitHub Pages. These services may process
+							information as necessary to provide their services.
+						</p>
+
+						<p>
+							Information may also be disclosed where required by
+							applicable law.
+						</p>
+					</section>
+
+					<section id="third-parties" class="policy-section">
+						<h2 class="title is-4">8. Third-Party Services</h2>
+
+						<p>
+							Your use of JordoBot involves third-party platforms:
+						</p>
+
+						<ul>
+							<li>
+								<strong>Discord:</strong> The platform through
+								which you interact with JordoBot.
+							</li>
+							<li>
+								<strong>VRChat:</strong> The platform associated
+								with the VRChat account you link.
+							</li>
+							<li>
+								<strong>Patreon:</strong> Relevant to the
+								membership-related roles used to organize
+								VRChat display names.
+							</li>
+							<li>
+								<strong>GitHub Pages:</strong> Hosts the public
+								JSON file.
+							</li>
+						</ul>
+
+						<p>
+							Each third-party service has its own terms and privacy
+							policy. JordoBot does not control the independent
+							privacy practices of these providers.
+						</p>
+					</section>
+
+					<section id="rights" class="policy-section">
+						<h2 class="title is-4">9. Your Choices and Rights</h2>
+
+						<p>
+							Linking your accounts is optional. If you no longer
+							wish to use this feature, you can unlink your account
+							using JordoBot's "Unlink Your Account" button.
+						</p>
+
+						<p>
+							You can also use the "Update Your Name" feature if
+							your VRChat display name changes.
+						</p>
+
+						<p>
+							Leaving the associated Discord server also triggers
+							the deletion process described in this policy.
+						</p>
+
+						<p>
+							Depending on your location and applicable law, you
+							may have rights to request access to, correction of,
+							or deletion of your personal information.
+						</p>
+
+						<p>
+							For questions or privacy requests, contact the
+							JordoBot operator using the details in the Contact
+							section below.
+						</p>
+					</section>
+
+					<section id="children" class="policy-section">
+						<h2 class="title is-4">10. Children's Privacy</h2>
+
+						<p>
+							JordoBot is not specifically designed to collect
+							personal information from children. Users must meet
+							the applicable age requirements for Discord, VRChat,
+							Patreon, and any other relevant services.
+						</p>
+
+						<p>
+							If you believe your information has been handled
+							inappropriately, please contact the operator.
+						</p>
+					</section>
+
+					<section id="changes" class="policy-section">
+						<h2 class="title is-4">11. Changes to This Policy</h2>
+
+						<p>
+							This Privacy Policy may be updated to reflect changes
+							to JordoBot or its data practices.
+						</p>
+
+						<p>
+							Any revised policy will be published on this page,
+							and the last-updated date will be changed accordingly.
+						</p>
+					</section>
+
+					<section id="contact" class="policy-section">
+						<h2 class="title is-4">12. Contact</h2>
+
+						<p>
+							If you have questions about this Privacy Policy or
+							want to make a request concerning your information,
+							you can contact the JordoBot operator by email:
+						</p>
+
+						<p>
+							<a href="mailto:Contact@JordoVR.com">
+								<i class="fas fa-envelope" aria-hidden="true"></i>
+								Contact@JordoVR.com
+							</a>
+						</p>
+					</section>
+
+				</div>
+
+			</div>
+
+			<div class="column is-4">
+
+				<div class="box">
+
+					<h5 class="title is-5">
+						<i class="fas fa-database" aria-hidden="true"></i>
+						What is stored?
+					</h5>
+
+					<div class="content">
+						<ul>
+							<li>Your Discord User ID</li>
+							<li>Your VRChat User ID</li>
+							<li>Your VRChat Display Name</li>
+						</ul>
+
+						<p>
+							These details are used to link your accounts,
+							keep your display name up to date, and maintain
+							the public VRChat lists.
+						</p>
+					</div>
+
+					<hr>
+
+					<h5 class="title is-5">
+						<i class="fas fa-trash-alt" aria-hidden="true"></i>
+						How do I unlink?
+					</h5>
+
+					<div class="content">
+						<p>
+							Use the "Unlink Your Account" button in the
+							<strong>#link-discord-vrchat</strong> channel
+							on the associated Discord server.
+						</p>
+
+						<p>
+							Leaving the associated Discord server also triggers deletion
+							of your stored account association.
+						</p>
+					</div>
+
+					<hr>
+
+					<h5 class="title is-5">
+						<i class="fas fa-globe" aria-hidden="true"></i>
+						What is public?
+					</h5>
+
+					<div class="content">
+						<p>
+							Your VRChat display name may appear in the public
+							JSON lists according to your roles.
+						</p>
+
+						<p>
+							<a href="https://jordovr-bot.github.io/patreon.json"
+							target="_blank"
+							rel="noopener noreferrer">
+							View public JSON
+						</a>
+					</p>
+				</div>
+
+				<hr>
+
+				<h5 class="title is-5">
+					<i class="fas fa-envelope" aria-hidden="true"></i>
+					Need help?
+				</h5>
+
+				<div class="content">
+					<p>
+						<a href="mailto:Contact@JordoVR.com">
+							Contact@JordoVR.com
+						</a>
+					</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+</section>
+
+<footer class="footer">
+	<div class="content has-text-centered">
+		<p>
+			<strong>JordoBot</strong> &mdash; Privacy Policy
+		</p>
+		<p class="is-size-7">
+			Last updated: October 26, 2026
+		</p>
+	</div>
+</footer>
+
+</body>
+
+</html>
